@@ -1,0 +1,6 @@
+To-do{
+    add a new task,
+    completed task should have a strike through,
+    DELETE completed tasks,
+    save tasks on localdb,
+}
