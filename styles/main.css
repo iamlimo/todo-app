@@ -4,3 +4,9 @@
     text-align: center;
     padding: 10px;
   }
+
+  ol {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}

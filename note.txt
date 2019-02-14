@@ -4,3 +4,19 @@ To-do{
     DELETE completed tasks,
     save tasks on localdb,
 }
+
+
+getform(){
+        $("input").keypress(function getform(e){
+            if(e.which == 13) {
+            todoApp.task.unshift($('#formField').val())
+            $('.todolist').prepend(`<li> ${$('#formField').val()} </li>`);
+            $('#formField').val('')
+            console.log(todoApp.task)
+            }
+           
+          });
+    }
+
+
+    $('#todolist').append(<${index}`);
