@@ -10,3 +10,21 @@
     margin: auto;
     padding: 10px;
 }
+
+.delete{
+  font-size: 12px;
+  position: absolute;
+  color: red;
+  margin-top: 5px;
+  padding-left: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tos{
+  color: green;
+}
+
+.checked{
+  text-decoration: line-through;
+}
